@@ -6,7 +6,7 @@ const faqs = [
   { q: "Os produtos são seguros?", a: "Sim! Todos os nossos produtos são 100% naturais, registrados na ANVISA e fabricados em laboratório certificado com Boas Práticas de Fabricação (BPF)." },
   { q: "Em quanto tempo vejo resultados?", a: "A maioria dos nossos clientes percebe resultados visíveis entre 15 e 30 dias de uso contínuo, combinado com alimentação equilibrada." },
   { q: "Posso parcelar minha compra?", a: "Sim! Aceitamos PIX (com desconto) e cartão de crédito em até 12x. O parcelamento é processado de forma segura via Stripe." },
-  { q: "E se eu não gostar do produto?", a: "Oferecemos garantia de 30 dias. Se não ficar satisfeito, basta entrar em contato que devolvemos 100% do valor pago." },
+  { q: "E se eu não gostar do produto?", a: "Oferecemos garantia de 7 dias. Se não ficar satisfeito, basta entrar em contato que devolvemos 100% do valor pago." },
 ];
 
 const FAQSection = () => (

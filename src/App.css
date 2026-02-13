@@ -1,3 +1,27 @@
+@layer utilities {
+  .animate-bounce-in {
+    animation: bounceIn 0.9s cubic-bezier(.68,-0.55,.27,1.55) both;
+    opacity: 1 !important;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(80px) scale(0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.05);
+  }
+  80% {
+    transform: translateY(10px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
